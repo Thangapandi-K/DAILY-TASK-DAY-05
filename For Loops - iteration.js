@@ -27,9 +27,13 @@ const myResume = {
 
 // "for" loop
 
-for (let i = 0; i < myResume.length; i++) {
+let arr = Object.keys(myResume)
+
+for (let ind = 0; ind < arr.length; ind++) {
     
-    console.log(myResume[i]);
+    key = arr[ind]
+    
+    console.log(key, myResume[key]);
     
 }
 
@@ -61,6 +65,8 @@ for (let key of Object.keys(myResume)) {
 // "for each" loop
 
 Object.keys(myResume).forEach(function(m) {
+    
     console.log(m, myResume[m]);
+
 });
 
