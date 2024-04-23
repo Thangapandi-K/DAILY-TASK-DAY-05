@@ -1,6 +1,4 @@
 
-
-
 const myResume = {
     name : "Thangapandi K",
     age : 27,
